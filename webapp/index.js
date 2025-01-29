@@ -10,14 +10,11 @@ sap.ui.define(["sap/ui/core/ComponentContainer"], function (ComponentContainer) 
   // });
 
   var oContainer = new ComponentContainer({
-    id: "container",
-    name: "djp",
-    manifest: true,
-    async: true,
-    settings: {
-      id: "djp"
-    }
-  });
+      id: "container",
+      name: "djp",
+      manifest: true,
+      async: true,
+      settings: { id: "djp" } });
   oContainer.placeAt("content");
 
 });
