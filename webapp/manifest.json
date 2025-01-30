@@ -4,28 +4,14 @@
         "id": "djp",
         "type": "application",
         "i18n": "i18n/i18n.properties",
-        "applicationVersion": {
-            "version": "0.0.1"
-        },
+        "applicationVersion": { "version": "0.0.1" },
         "title": "{{appTitle}}",
         "description": "{{appDescription}}",
         "resources": "resources.json",
-        "sourceTemplate": {
-            "id": "@sap-ux/fiori-freestyle-writer:basic",
-            "version": "0.11.15",
-            "toolsId": "225debe7-7702-4889-b126-99f1a6994b9e"
-        },
-        "dataSources": {
-            "mainService": {
-                "uri": "/sap/opu/odata4/sap/ux_ui_customer_o4/srvd/sap/ux_ui_customer/0001/",
-                "type": "OData",
-                "settings": {
-                    "annotations": [],
-                    "localUri": "localService/metadata.xml",
-                    "odataVersion": "4.0"
-                }
-            }
-        }
+        "sourceTemplate": { "id": "@sap-ux/fiori-freestyle-writer:basic",
+                            "version": "0.11.15",
+                            "toolsId": "225debe7-7702-4889-b126-99f1a6994b9e" },
+        "dataSources": { }
     },
     "sap.ui": {
         "technology": "UI5",
